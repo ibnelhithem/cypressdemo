@@ -1,0 +1,26 @@
+{
+  "name": "cypressdemo",
+  "version": "1.0.0",
+  "description": "demo interview",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibnelhithem/cypressdemo.git"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "hassansalem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibnelhithem/cypressdemo/issues"
+  },
+  "homepage": "https://github.com/ibnelhithem/cypressdemo#readme",
+  "devDependencies": {
+    "cypress": "^9.6.0"
+  }
+}
