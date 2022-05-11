@@ -59,7 +59,7 @@ context('Demo test for Automation Playground', ()=>{
         cy.get('@nav-Text-Input-link').click();
         textInput.initPage().verifyPage().changeButtonName();
     })
-    it('chech progress bar',()=>{
+    it.skip('chech progress bar',()=>{
         cy.get('@nav-Progress-Bar-link').click();
         progressBar.initPage().verifyPage().checkProgressBar();
     })
