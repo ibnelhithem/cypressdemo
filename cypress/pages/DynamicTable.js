@@ -13,7 +13,6 @@ class DynamicTable{
         cy.contains('%').invoke('text').as('valuetext')
        })
        cy.get('@valuetext').then((valuetext) => {
-        cy.log('Student Name: ' + valuetext) 
         cy.get('@res').should('contain',valuetext)
       })
    }

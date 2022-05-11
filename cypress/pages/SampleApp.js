@@ -1,5 +1,3 @@
-import { cli } from "cypress";
-
 class SampleApp{
     initPage() {
         // the static data for username and pass should be move to external files but this is a simple scenario so I keep it her

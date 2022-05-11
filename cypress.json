@@ -1,13 +1,12 @@
 {
     "$schema": "https://on.cypress.io/cypress.schema.json",
     "baseUrl": "http://uitestingplayground.com/",
-    "defaultCommandTimeout": 10000,
+    "defaultCommandTimeout": 25000,
     "ignoreTestFiles": [
-        "**/1-getting-started/**"
-        ,"**/2-advanced-examples/**"
+        "**/1-getting-started/**",
+        "**/2-advanced-examples/**"
     ],
     "chromeWebSecurity": false,
-    "defaultCommandTimeout": 5000,
     "requestTimeout": 75000,
     "responseTimeout": 45000,
     "pageLoadTimeout": 100000,
